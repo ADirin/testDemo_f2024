@@ -13,4 +13,9 @@ public class AppTest {
     public void subMeTest(){
         assertEquals(12,app.subMe(13,1) );
     }
+
+    @Test
+    public void multiplyMeTest(){
+        assertEquals(13,app.multiplyMe(13,1) );
+    }
 }

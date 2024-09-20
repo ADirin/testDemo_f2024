@@ -7,4 +7,8 @@ public class App {
         return a - b;
     }
 
+    public int multiplyMe(int a, int b ) {
+        return a * b;
+    }
+
 }
